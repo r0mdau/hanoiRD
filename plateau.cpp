@@ -4,14 +4,10 @@
 
 using namespace std;
 
-Plateau::Plateau ()
-{
-}
+Plateau::Plateau () {}
 
 
-Plateau::Plateau(int p_taille) : m_taille(p_taille)
-{
-}
+Plateau::Plateau(int p_taille) : m_taille(p_taille) {}
 
 int Plateau::getTaille()
 {

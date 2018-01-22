@@ -3,6 +3,7 @@
 #define TOUR_H_INCLUDED
 
 #include <stack>
+#include <string>
 #include "plateau.h"
 
 class Tour

@@ -9,7 +9,7 @@ Jeu::Jeu(int p_nbPlateau)
     m_premiereTour = new Tour("a", p_nbPlateau);
     m_deuxiemeTour = new Tour("b");
     m_troisiemeTour = new Tour("c");
-    m_nbPlateaux=p_nbPlateau;
+    m_nbPlateaux = p_nbPlateau;
 }
 
 bool Jeu::gagne()
